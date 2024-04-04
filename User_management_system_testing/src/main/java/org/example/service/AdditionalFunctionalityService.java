@@ -1,8 +1,9 @@
 package org.example.service;
-
 public class AdditionalFunctionalityService {
-    public void performAdditionalFunctionality() {
-        // Add code here to implement the additional functionality
-        System.out.println("Performing additional functionality...");
+    public static void displayFeatures() {
+        System.out.println("Here are some features of the application:");
+        System.out.println("1. Feature A");
+        System.out.println("2. Feature B");
+        System.out.println("3. Feature C");
     }
 }
